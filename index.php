@@ -23,7 +23,7 @@
 <p>Cuadernos, plumas, hojas, colores y más.</p>
 
 <h3>Misión</h3>
-<p>Ofrecer calidad y buen servicio.</p>
+<p>Ofrecer calidad y buen servicios.</p>
 
 <h3>Visión</h3>
 <p>Ser líderes en Oaxaca.</p>
