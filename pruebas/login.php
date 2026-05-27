@@ -9,7 +9,8 @@ if($_POST){
         $_SESSION['login'] = true;
         header("Location: admin.php");
         exit();
-    } else {
+    } 
+    else {
         $error = "Datos incorrectos";
     }
 }
