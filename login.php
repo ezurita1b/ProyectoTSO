@@ -16,17 +16,11 @@ if($_POST){
 
         header("Location: admin.php");
         exit();
-<<<<<<< HEAD:pruebas/login.php
     } 
-    else {
-=======
-
-    } else {
-
->>>>>>> 18de14f (Actualizacion del proyecto):login.php
+   
         $error = "Datos incorrectos";
     }
-}
+
 ?>
 
 <!DOCTYPE html>
