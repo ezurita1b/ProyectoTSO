@@ -2,15 +2,28 @@
 session_start();
 
 if($_POST){
+
     $user = $_POST['user'];
     $pass = $_POST['pass'];
 
-    if($user == "23161182@itoaxaca.edu.mx" && $pass == "23161182TSO"){
+    if(
+        ($user == "23161182@itoaxaca.edu.mx" && $pass == "23161182TSO")
+        ||
+        ($user == "23160963@itoaxaca.edu.mx" && $pass == "23160963TSO")
+    ){
+
         $_SESSION['login'] = true;
+
         header("Location: admin.php");
         exit();
+<<<<<<< HEAD:pruebas/login.php
     } 
     else {
+=======
+
+    } else {
+
+>>>>>>> 18de14f (Actualizacion del proyecto):login.php
         $error = "Datos incorrectos";
     }
 }
@@ -36,12 +49,22 @@ if($_POST){
 
 <h2>Login Administrador</h2>
 
-<?php if(isset($error)){ echo "<p style='color:red;'>$error</p>"; } ?>
+<?php
+if(isset($error)){
+    echo "<p style='color:red;'>$error</p>";
+}
+?>
 
 <form method="POST">
-<input name="user" placeholder="Usuario" required><br><br>
-<input type="password" name="pass" placeholder="Contraseña" required><br><br>
-<button>Entrar</button>
+
+<input name="user" placeholder="Usuario" required>
+<br><br>
+
+<input type="password" name="pass" placeholder="Contraseña" required>
+<br><br>
+
+<button type="submit">Entrar</button>
+
 </form>
 
 </div>
