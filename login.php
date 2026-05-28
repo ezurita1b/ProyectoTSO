@@ -1,29 +1,30 @@
 <?php
-session_start();
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
 
-if($_POST){
+$error = "";
+
+if ($_POST) {
 
     $user = $_POST['user'];
     $pass = $_POST['pass'];
 
-    if(
-        ($user == "23161182@itoaxaca.edu.mx" && $pass == "23161182TSO")
-        ||
+    if (
+        ($user == "23161182@itoaxaca.edu.mx" && $pass == "23161182TSO") ||
         ($user == "23160963@itoaxaca.edu.mx" && $pass == "23160963TSO")
-    ){
+    ) {
 
         $_SESSION['login'] = true;
 
         header("Location: admin.php");
         exit();
-    } 
-   
+
+    } else {
         $error = "Datos incorrectos";
     }
-
-?>
-
-<!DOCTYPE html>
+}
+?><!DOCTYPE html>
 <html>
 <head>
     <title>Login</title>
@@ -44,7 +45,7 @@ if($_POST){
 <h2>Login Administrador</h2>
 
 <?php
-if(isset($error)){
+if ($error != "") {
     echo "<p style='color:red;'>$error</p>";
 }
 ?>

@@ -30,7 +30,7 @@ if (!$result) {
 <body>
 
 <header>
-    <h1>Papelería Tony</h1>
+    <h1>Panel Emmanuel</h1>
 </header>
 
 <nav>
