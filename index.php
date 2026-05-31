@@ -49,7 +49,7 @@
         <h3>Productos</h3>
         <p>
             Cuadernos, plumas, lápices, hojas, carpetas, colores,
-            calculadoras y más.
+            calculadoras, cajas y más.
         </p>
     </div>
 
@@ -67,7 +67,7 @@
     <div class="card">
         <h3>Visión</h3>
         <p>
-            Ser la papelería líder en Oaxaca mediante innovación y servicio.
+            Ser la papelería líder en Oaxaca mediante innovación y servicios.
         </p>
     </div>
 
