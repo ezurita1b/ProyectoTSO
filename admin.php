@@ -3,6 +3,7 @@
     ini_set('display_errors', 1);
     session_start();
     echo "Entrando a admin.php";
+    // Comentario de prueba
 ?>
 <?php
 session_start();
