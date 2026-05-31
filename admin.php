@@ -2,7 +2,7 @@
     error_reporting(E_ALL);
     ini_set('display_errors', 1);
     session_start();
-    echo "Entrando a admin.php";
+   
 ?>
 <?php
 session_start();
