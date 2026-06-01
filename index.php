@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Papelería Tony</title>
+    <title>Papelería</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
 <header>
-    <h1>Tony Papelerias</h1>
+    <h1>Papelería Tony</h1>
     <p>Todo lo que necesitas para la escuela y oficina</p>
 </header>
 
@@ -49,7 +49,7 @@
         <h3>Productos</h3>
         <p>
             Cuadernos, plumas, lápices, hojas, carpetas, colores,
-            calculadoras, cajas y más.
+            calculadoras y más.
         </p>
     </div>
 
@@ -67,7 +67,7 @@
     <div class="card">
         <h3>Visión</h3>
         <p>
-            Ser la papelería líder en Oaxaca mediante innovación y servicios.
+            Ser la papelería líder en Oaxaca mediante innovación y servicio.
         </p>
     </div>
 
