@@ -42,7 +42,7 @@ if (!$result) {
 
 <div class="container">
 
-<h2>Gestión de Artículos</h2>
+<h2>Gestión de Papeleria</h2>
 
 <a href="crear.php">Agregar nuevo</a>
 
