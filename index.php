@@ -9,7 +9,7 @@
 <body>
 
 <header>
-    <h1>Papeleria Emmanuel  </h1>
+    <h1>Tony Papelerias</h1>
     <p>Todo lo que necesitas para la escuela y oficina</p>
 </header>
 
