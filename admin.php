@@ -1,9 +1,8 @@
 <?php
    
     session_start();
-    echo "Entrando a admin.php";
-    // Comentario de prueba
-    // Comentario de prueba 2
+   
+   
    
 ?>
 <?php
