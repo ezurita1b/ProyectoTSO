@@ -9,7 +9,7 @@
 <body>
 
 <header>
-    <h1>Papelería Tony</h1>
+    <h1>Tercera Oportunidad Orlando</h1>
     <p>Todo lo que necesitas para la escuela y oficina</p>
 </header>
 
