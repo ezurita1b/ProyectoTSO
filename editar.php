@@ -1,6 +1,6 @@
 <?php
 session_start();
-
+//prueba de commit
 if(!isset($_SESSION['login'])){
     header("Location: login.php");
     exit();
